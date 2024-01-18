@@ -1,0 +1,28 @@
+package com.a3tecnology.bancodigital.presenter.auth.login
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.liveData
+import com.a3tecnology.bancodigital.domain.auth.LoginUseCase
+import com.a3tecnology.bancodigital.util.StateView
+import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.Dispatchers
+import javax.inject.Inject
+
+@HiltViewModel
+class LoginViewModel @Inject constructor(
+    private val loginUseCase: LoginUseCase
+) : ViewModel() {
+
+    fun login(email: String, password: String) = liveData(Dispatchers.IO) {
+        try {
+            emit(StateView.Loading()) // irá exibir progressBar
+
+
+            loginUseCase.invoke(email, password)
+            emit(StateView.Success(null)) // ira retornar em caso de Success
+
+        } catch (e: Exception) {
+            emit(StateView.Error(e.message))
+        }
+    }
+}

@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Banco Digital</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    Generic-->
+    <string name="txt_name_empty">Digite seu Nome</string>
+    <string name="txt_email_empty">Digite seu Email</string>
+    <string name="txt_phone_empty">Digite seu Telefone</string>
+    <string name="txt_phone_recharge_empty">Informe um número de telefone válido para que a recarga seja realizada.</string>
+    <string name="txt_password_empty">Digite sua Senha</string>
+    <string name="txt_amount_empty">Digite o valor da recarga maior ou igual a R$ 10,00.</string>
+    <string name="txt_confirm_password_empty">As senhas devem ser iguais.</string>
+    <string name="txt_confirm_empty">É necessário confirmar a senha.</string>
+    <string name="error_generic">Ocorreu um erro, por favor tente novamente mais tarde.</string>
+
+    <!--    Tela Login-->
+    <string name="btn_login">Login</string>
+    <string name="edt_email">Email</string>
+    <string name="edt_password">Senha</string>
+    <string name="txt_createAccount">Criar Conta</string>
+
+    <!--    Tela Recover-->
+    <string name="txt_recover">Recuperar Conta</string>
+    <string name="txt_recover_info">Digite seu email que te enviaremos um link para você alterar sua senha.</string>
+    <string name="toolbar_recover">Recuperar Senha</string>
+    <string name="txt_email_send_recover_success">Email enviado com sucesso</string>
+    <string name="txt_email_send_recover_error">Por favor, inserir o email cadastrado.</string>
+    <string name="txt_email_send_recover">Digite o Email cadastrado</string>
+    <string name="btn_send_email">Enviar Email</string>
+
+    <!--    Tela Register-->
+    <string name="toolbar_register">Criar Conta</string>
+    <string name="txt_name">Nome</string>
+    <string name="edt_name">Digite seu Nome</string>
+    <string name="edt_email_register">Digite seu Email</string>
+    <string name="txt_phone">Telefone</string>
+    <string name="edt_phone">Digite seu Número</string>
+    <string name="txt_confirm_password">Confirmar Senha</string>
+    <string name="edt_register_password">Digite uma Senha</string>
+    <string name="edt_confirm_password">Digite a Senha novamente</string>
+    <string name="btn_account">Cadastrar</string>
+    <string name="msg_phone_register_invalid">Digite um número válido</string>
+
+
+    <!--    Bottom Sheet-->
+    <string name="txt_title_bottom_sheet">Atenção</string>
+    <string name="btn_bottom_sheet">Entendi</string>
+    <string name="btn_camera_bottom_sheet">Câmera</string>
+    <string name="btn_gallery_bottom_sheet">Galeria</string>
+    <string name="txt_title_img_bottom_sheet">Adicione imagem de perfil</string>
+    <string name="txt_message_img_bottom_sheet">Escolha uma das opções para adicionar a imagem.</string>
+
+    <!--    Error Firebase Authentication -->
+    <string name="account_not_registered_register_fragment">Dados invalidos. Por favor, verificar as informações digitadas.</string>
+    <string name="invalid_email_register_fragment">Insira um email válido.</string>
+    <string name="email_in_use_register_fragment">Este email já está em uso.</string>
+    <string name="strong_password_register_fragment">Insira uma senha mais forte.</string>
+    <string name="email_password_login_error">Verifique se as informações foram digitadas corretamente.</string>
+
+
+    <!--    Home-->
+    <string name="txt_deposit_home">Depositar</string>
+    <string name="txt_recharge_home">Recarga de Celular</string>
+    <string name="txt_extract_home">Extrato</string>
+    <string name="txt_transfer_home">Transferir</string>
+    <string name="txt_user_perfil_home">Perfil</string>
+    <string name="txt_formated_value">R$ %1$s</string>
+    <string name="txt_activity_home">Últimas atividades</string>
+    <string name="txt_view_all_home">Ver Todas</string>
+    <string name="txt_message_empty_transactions_home">Nenhuma transição efetuada.</string>
+
+    <!--    Deposito-->
+    <string name="txt_deposit_title">Depositar</string>
+    <string name="btn_deposit">Confirmar</string>
+    <string name="txt_deposit_info">Informe o valor a ser depositado.</string>
+    <string name="txt_deposit_value">Valor do Depósito</string>
+    <string name="message_deposit_amount">O valor do Depósito deve ser diferente de R$ 0,00"</string>
+
+    <!--    Deposit Receipt-->
+    <string name="txt_title_toolbar_deposit_receipt">Recibo de Depósito</string>
+    <string name="txt_deposit_receipt_success">Depósito efetuado\n com sucesso!</string>
+    <string name="txt_sub_deposit_receipt_success">Seu depósito ficará disponível em até 3 dias.</string>
+    <string name="txt_code_deposit_receipt_transaction">Código de Transação</string>
+    <string name="txt_date_deposit_receipt_transaction">Data depósito</string>
+    <string name="txt_amount_deposit_receipt_transaction">Valor de depósito</string>
+    <string name="btn_deposit_receipt_transaction">Continuar</string>
+
+    <!--    Extract-->
+    <string name="toolbar_extract">Extrato</string>
+    <string name="txt_message_empty_transactions_extract">Nenhum extrato registrado.</string>
+
+    <!--    PerfilForm-->
+    <string name="toolbar_perfil">Perfil</string>
+    <string name="txt_perfil_name">Nome</string>
+    <string name="edt_perfil_name">Digite seu Nome</string>
+    <string name="edt_perfil_email_register">Digite seu Email</string>
+    <string name="txt_perfil_phone">Telefone</string>
+    <string name="edt_perfil_phone">Digite seu Número</string>
+    <string name="btn_perfil_save">Salvar</string>
+    <string name="message_perfil_save_success">Informações do Perfil salva com sucesso.</string>
+    <string name="message_perfil_access_denied_camera">É necessário conceder permissão a este aplicativo para poder utilizar a Câmera. Settings </string>
+    <string name="message_perfil_access_denied_gallery">É necessário conceder permissão a este aplicativo para poder acessar os arquivos da Galeria. Settings </string>
+
+    <!--    RechargeReceipt-->
+    <string name="txt_title_toolbar_recharge_receipt">Recibo de Recarga</string>
+    <string name="txt_deposit_recharge_success">Recarga efetuada\n com sucesso!</string>
+    <string name="txt_sub_deposit_recharge_success">Seu crédito estará disponível em alguns minutos.</string>
+    <string name="txt_date_deposit_recharge_transaction">Data recarga</string>
+    <string name="txt_amount_transaction_recharge_transaction">Valor de recarga</string>
+    <string name="txt_code_deposit_recharge_transaction">Código de Transação</string>
+    <string name="txt_phone_recharge_transaction">Número</string>
+    <string name="btn_deposit_recharge_transaction">Continuar</string>
+
+    <!--    RechargForm-->
+    <string name="txt_title_toolbar_recharge">Recarga</string>
+    <string name="txt_value_recharge">Valor da Recarga</string>
+    <string name="txt_number_recharge">Insira o Número</string>
+    <string name="edt_phone_recharge">(75) 99999 - 9999</string>
+
+    <!--    TransferUserList-->
+    <string name="toolbar_transfer_user">Usuários</string>
+    <string name="txt_message_empty_transfer_user">Nenhum usuário encontrado.</string>
+
+    <!--    TranferForm-->
+    <string name="txt_transfer_title">Transferência</string>
+    <string name="btn_transfer">Confirmar</string>
+    <string name="txt_transfer_info">Informe o valor a ser transferido.</string>
+    <string name="message_transfer_amount">O valor da Transferência deve ser diferente de R$ 0,00"</string>
+
+    <!--    Transfer Confirm-->
+    <string name="txt_title_toolbar_transfer_confirm">Recibo de Transferência</string>
+    <string name="txt_transfer_confirm_success">Verifique os dados antes de\n confirmar a transferência!</string>
+    <string name="txt_sub_transfer_confirm">Após a transferência não será possível desfazê-la.</string>
+    <string name="txt_code_transfer_confirm_transaction_user">Receberá a transferência</string>
+    <string name="txt_transfer_confirm_user">Antonio da Hora</string>
+    <string name="txt_amount_transfer_confirm_transaction">Valor de Transferência</string>
+    <string name="btn_deposit_transfer_confirm_transaction">Continuar</string>
+    <string name="txt_amount_transfer_insufficient_transaction">Seu saldo é insuficiente para a realização da transferência.</string>
+    <string name="btn_transfer_confirm">Confirmar</string>
+
+
+    <!--    Transfer Receipt-->
+    <string name="txt_title_toolbar_transfer_receipt">Comprovante de Transferência</string>
+    <string name="txt_transfer_receipt_success">Transferência efetuada\n com sucesso!</string>
+    <string name="txt_code_transfer_receipt_transaction">Código de Transação</string>
+    <string name="txt_sub_transfer_receipt_confirm">Transferência realizada com Sucesso. A previsão de crédito na conta de destino é de até 30 minutos.</string>
+    <string name="txt_code_transfer_receipt_transaction_user">Transferência enviada por.</string>
+    <string name="txt_code_transfer_send_transaction_user">Receberá a transferência</string>
+    <string name="txt_transfer_user">Antonio da Hora</string>
+    <string name="txt_amount_transfer_receipt_transaction">Valor de Transferência</string>
+    <string name="btn_transfer_transaction_receipt">Continuar</string>
+    <string name="txt_date_transfer_receipt_transaction">Data Transferência</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BancoDigital" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/color_default</item>
+        <item name="colorPrimaryVariant">@color/color_default</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorAccent">@color/white</item>
+
+        <!--        <item name="colorSecondary">@color/white</item>-->
+        <!--        <item name="colorSecondaryVariant">@color/white</item>-->
+        <!--        <item name="colorOnSecondary">@color/white</item>-->
+
+        <item name="android:windowBackground">@color/color_default</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+    <style name="ThemeDark">
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <style name="Theme.BancoDigital" parent="Base.Theme.BancoDigital" />
+
+    <style name="ThemeScreenConfirm" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_success</item>
+    </style>
+
+    <style name="Theme.EditText" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@drawable/bg_edit</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+        <item name="drawableTint">@color/color_default</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/color_default</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="SearchViewThemeWhit">
+        <item name="colorSecondary">@color/white</item>
+        <item name="searchBackground">@drawable/bg_search</item>
+        <item name="android:inputType">text</item>
+        <item name="android:hint">@string/search_hint</item>
+        <item name="hintColor">@color/white</item>
+        <item name="backIconTint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="iconsTint">@color/white</item>
+    </style>
+
+</resources>

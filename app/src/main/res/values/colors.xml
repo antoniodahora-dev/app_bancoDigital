@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_disabled">#A8A8A8</color>
+    <color name="color_default">#0097AA</color>
+    <color name="color_text_hint">#64D3E1</color>
+
+    <color name="color_disable">#95EBF6</color>
+    
+    <color name="color_success">#24BC61</color>
+    <color name="color_error">#FA0014</color>
+
+    <color name="color_cashIn">#24BC61</color>
+    <color name="color_cashOut">#FA0014</color>
+
+</resources>

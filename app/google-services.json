@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "504785859032",
+    "project_id": "digital-bank-132b7",
+    "storage_bucket": "digital-bank-132b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504785859032:android:615f249a4dea77163cc2ad",
+        "android_client_info": {
+          "package_name": "com.a3tecnology.bancodigital"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDci8MNLNyv4kfQagg3eLq9kKkERiY9QKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
